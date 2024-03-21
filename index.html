@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@1&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ranga:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <ul class="nav">
+    <li class="navbord"><a href="home">Home</a></li>
+    <li class="navbord"><a href="students">Students</a></li>
+    <li class="navbord"><a href="staff">Staff</a></li>
+    <li class="navbord"><a href="events">Events</a></li>
+    <li><a href="contact">Contact</li>
+  </ul>
+  
+  <img src="logo.png" class="logo">
+  <div class="top">
+    <a role="link" aria-disabled="true" class="taehs">Thomas A. Edison Career and Technical Education High School</a>
+    <h3 class="quote">"There is no substitute for hard work." <br> <p class="credit">-Thomas A. Edison</p></h3>
+  </div>
+  <div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="edison.jpg" style="width:55%">
+    <div class="text" id="text1"> Who we are: <br> Thomas A. Edison is a unique school that offers strong academic and career & technical education programs. We provide a real college and career ready institute.</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="court.jpg" style="width:55%">
+    <div class="text" id="text2">Mission: <br> The mission of Thomas A. Edison Career and Technical Education High School is to develop leaders of tomorrow by preparing all students to meet the high academic, technical, civic and workforce challenges of the twenty-first century. We believe that strong leadership throughout our united community of faculty members, students, parents, and associates will move us towards the following goals: academic rigor, high standards for assessing students' performances and continuous school improvement.</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="front.jpg" style="width:55%">
+    <div class="text" id="text3">Vision: <br> The vision of our school is to prepare and motivate students by instilling in them critical reasoning skills, respect for themselves and one another and a commitment to excellence, kindness and perseverance.</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
