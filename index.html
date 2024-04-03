@@ -8,20 +8,40 @@
   <link href="style.css" rel="stylesheet" type="text/css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@1&family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+  
   <link href="https://fonts.googleapis.com/css2?family=Ranga:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <ul class="nav">
-    <li class="navbord"><a href="home">Home</a></li>
-    <li class="navbord"><a href="students">Students</a></li>
-    <li class="navbord"><a href="staff">Staff</a></li>
-    <li class="navbord"><a href="events">Events</a></li>
-    <li><a href="contact">Contact</li>
-  </ul>
+
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Students 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="cte.html">CTE Programs</a>
+        <a href="">Clubs/Organizations</a>
+        <a href="">Athletics</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+      <button class="dropbtn">Staff 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="direct.html">Directory</a>
+        <a href="">Alumni</a>
+      </div>
+    </div> 
+     <a href="#events">Events</a>
+     <a href="#contact">Contact</a>
+    
+  </div>
+
   
   <img src="logo.png" class="logo">
   <div class="top">
@@ -59,6 +79,24 @@
     <span class="dot" onclick="currentSlide(2)"></span> 
     <span class="dot" onclick="currentSlide(3)"></span> 
   </div>
+  <div class="circle1">
+    <p>94% Graduation Rate</p>
+  </div>
+  <div class="circle2">
+    <p>22 Varsity Sports</p>
+  </div>
+  <div class="circle3">
+    <p>13 CTE Courses</p>
+  </div>
+  <div class="circle4">
+    <p>20+ College Level Courses</p>
+  </div>
+  <br>
+  <div class="footer">
+    <img src="footerlogo.png" class="footpg">
+    <p class="taehsfoot">Thomas A. Edison Career and Technical Education High School</p>
+  </div>
+    
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="script.js"></script>
 </body>
